@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Cyberpunk 2077</title>
+</head>
+
+<body>
+  <div class="main w-full">
+    <nav class="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-sm border-b border-zinc-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div
+            class="flex items-center justify-between w-full transition-all duration-300 rounded-lg px-4 [text-shadow:0_0_10px_rgba(255,255,255,0.5)] hover:[text-shadow:0_0_20px_rgba(255,255,255,0.8)]">
+            <div class="flex-shrink-0">
+              <img
+                class="h-10 cursor-pointer hover:brightness-125 transition-all duration-300 mix-blend-lighten [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.5))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,0.8))]"
+                src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3"
+                alt="CyberHelmet Logo">
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden">
+              <button type="button" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+                class="text-white hover:text-blue-300 p-2 [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+
+            <!-- Desktop menu -->
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a href="#"
+                  class="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Home</a>
+                <a href="#"
+                  class="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">About</a>
+                <a href="#"
+                  class="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Gallery</a>
+                <a href="#"
+                  class="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state -->
+      <div id="mobile-menu" class="hidden md:hidden bg-zinc-800/30 backdrop-blur-sm">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="#"
+            class="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Home</a>
+          <a href="#"
+            class="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">About</a>
+          <a href="#"
+            class="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Gallery</a>
+          <a href="#"
+            class="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 [text-shadow:0_0_10px_rgba(0,157,255,0.8)] hover:[text-shadow:0_0_20px_rgba(0,157,255,1)] [filter:drop-shadow(0_0_10px_rgba(0,157,255,0.8))] hover:[filter:drop-shadow(0_0_20px_rgba(0,157,255,1))]">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img
+        class=" absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten [filter:contrast(150%)_saturate(150%)]"
+        src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3"
+        alt="">
+      <div
+        class="w-[17rem] h-[17rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full z-[-1] [box-shadow:0_0_100px_50px_rgba(59,130,246,0.5),inset_0_0_50px_rgba(59,130,246,0.5)] animate-pulse">
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div
+      class="w-full h-screen bg-gradient-to-b from-zinc-900 via-zinc-800 to-black transition-all duration-700 ease-in-out opacity-80 backdrop-blur-sm">
+      nskdfnsjkf
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

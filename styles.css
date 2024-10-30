@@ -1,0 +1,19 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
